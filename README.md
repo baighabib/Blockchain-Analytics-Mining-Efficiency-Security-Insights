@@ -3,7 +3,7 @@
 ## Introduction
 This project explores the mechanics of Bitcoin mining, the process of verifying transactions within a blockchain network, and the associated security concerns, particularly the double-spending problem. Through computational exercises, we analyze mining strategies and assess the risks of network manipulation by malicious actors.
 
-## Bitcoin Mining Process:
+## Bitcoin Mining Process
 Bitcoin mining is a decentralized process where network participants (nodes) validate transactions and secure the blockchain. The process follows these steps:
 1. **Transaction Announcement:** Users initiate transactions, which are broadcast to the network.
 2. **Transaction Verification:** Nodes verify the transactions based on their historical ledger.
@@ -12,7 +12,7 @@ Bitcoin mining is a decentralized process where network participants (nodes) val
 5. **Block Confirmation:** The first miner to find a valid solution broadcasts it to the network. Other nodes validate the solution before appending the block to the blockchain.
 6. **Rewards:** The successful miner is rewarded with new bitcoins and transaction fees.
 
-## Computational Mining Exercise
+### Computational Mining Exercise
 To understand mining, we attempted to find the smallest positive integer x that, when appended to a transaction message and hashed using SHA-256, produces a hash starting with three zeros. A while loop was implemented to automate the search process.
 
 ## Security Concerns: Double Spending Problem
